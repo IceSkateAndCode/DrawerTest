@@ -1,12 +1,12 @@
-import {Drawer} from 'react-native-paper';
+import * as React from 'react';
+import { Drawer } from 'react-native-paper';
 
 const DrawerItem = () => (
-    <DrawerItem 
-        style = {{backgroundColor: "red"}}
-        icon="Star"
-        label="Testing Item"
-    />
-
+   <Drawer.Item
+     style={{ backgroundColor: '#64ffda' }}
+     icon="star"
+     label="First Item"
+   />
 );
 
 export default DrawerItem;
