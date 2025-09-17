@@ -1,13 +1,18 @@
 import { Drawer } from 'react-native-paper';
-import colors from "../styles/colors";
 const CollapsedItem = () => (
    <Drawer.CollapsedItem
-     // Icon for the focused destination(where you actively are)
+     // Icon for the focused destination
+     // Type: IconSource
      focusedIcon="inbox"
-     // Icon for the unfocused destination(places where you aren't)
+     // Icon for the unfocused destination
+     // Type: IconSource
      unfocusedIcon="inbox-outline"
      // The label text of the item
+     // Type: string
      label="Inbox"
+     // Decides whether to highlight the drawer item as active
+     // Type: boolean
+     active = {true}
    />
 );
 
