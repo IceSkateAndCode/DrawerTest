@@ -1,12 +1,16 @@
-import {Drawer} from 'react-native-paper';
+import * as React from 'react';
+import { Drawer } from 'react-native-paper';
 
+
+//DrawerItem is a component that lets you navigate to different places
+//Examples of a DrawerItem would be a Profile or Logout button
+//Child of DrawerSection
 const DrawerItem = () => (
-    <DrawerItem 
-        style = {{backgroundColor: "red"}}
-        icon="Star"
-        label="Testing Item"
-    />
-
+   <Drawer.Item
+     style={{ backgroundColor: '#64ffda' }}
+     icon="star"
+     label="First Item"
+   />
 );
 
 export default DrawerItem;
