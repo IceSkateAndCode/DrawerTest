@@ -11,8 +11,4 @@ const CollapsedItem = () => (
    />
 );
 
-<Drawer.Item 
-  style={{backgroundColor: "yellow"}}
-/>
-
 export default CollapsedItem;
