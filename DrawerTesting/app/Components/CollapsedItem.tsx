@@ -1,5 +1,5 @@
 import { Drawer } from 'react-native-paper';
-
+import colors from "../styles/colors";
 const CollapsedItem = () => (
    <Drawer.CollapsedItem
      // Icon for the focused destination(where you actively are)
