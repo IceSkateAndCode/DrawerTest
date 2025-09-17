@@ -13,6 +13,20 @@ const CollapsedItem = () => (
      // Decides whether to highlight the drawer item as active
      // Type: boolean
      active = {true}
+     // Badge to show on the icon, true is a dot, string or number to show text
+     // Type: string | number | boolean
+     // Default value: false
+     badge = {true}
+     // Whether the item is disabled
+     // Type: boolean
+     disabled = {false}
+     // Largest possible scale a label font can reach
+     // Type: number
+     labelMaxFontSizeMultiplier={25}
+     // An onPress prop can be added as well
+     // Type: (e: GestureResponderEvent) => void
+     // Syntax below as a comment:
+     // onPress = onPressFunction
    />
 );
 
