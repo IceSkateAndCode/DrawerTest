@@ -1,4 +1,6 @@
-import { Text, View } from "react-native";
+import { View } from "react-native";
+import CollapsedItem from "./Components/CollapsedItem";
+import Section from "./Components/Section";
 
 export default function Index() {
   return (
@@ -9,7 +11,8 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <CollapsedItem />
+      <Section />
     </View>
   );
 }
