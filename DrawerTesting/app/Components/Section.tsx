@@ -9,7 +9,7 @@ const Section = () => {
   return (
     <Drawer.Section
         // The header of the section 
-        title="Some title"
+        title="This is a section title!"
         // Decides if there is a divider at the end of the section
         // Default is true
         showDivider = {true}
@@ -18,6 +18,7 @@ const Section = () => {
         >
       // Children are REQUIRED for Drawer.Section
       // Children can be Drawer.Item or Drawer.CollapsedItem
+      // Children can even be a mix of the two!
       <DrawerItem />
       <CollapsedItem />
     </Drawer.Section>
