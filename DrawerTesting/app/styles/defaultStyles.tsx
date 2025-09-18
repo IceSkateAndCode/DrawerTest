@@ -4,8 +4,7 @@ import colors from './colors'
 const defaultStyles = StyleSheet.create({
     contanier: {
         flex: 1,
-        alignItems: 'center',
-        justifyContent: "center",
+        paddingTop: 10,
     },
     itemContainer: {
         width : "100%",
@@ -16,6 +15,7 @@ const defaultStyles = StyleSheet.create({
     button: {
         height: 40,
         width: "50%",
+        color: colors.textColor,
         backgroundColor: colors.secondaryContainer,
     },
     text: {
