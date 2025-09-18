@@ -1,7 +1,7 @@
 const colors ={
     Container: "snow",
     secondaryContainer: "#714476",
-    textColor: "#272429",
+    textColor: "#d7a4de",
     iconColor: "#272429",
     rippelColor: "#eedcfa"
 }
