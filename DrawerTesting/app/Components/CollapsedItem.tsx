@@ -23,6 +23,10 @@ const CollapsedItem = () => (
      // Largest possible scale a label font can reach
      // Type: number
      labelMaxFontSizeMultiplier={25}
+     // Accessibility label for the button
+     // Read by screen reader when the user presses the button
+     // Type: string
+     accessibilityLabel = "accessibility label demo"
      // An onPress prop can be added as well
      // Type: (e: GestureResponderEvent) => void
      // Syntax below as a comment:
