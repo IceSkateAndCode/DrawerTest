@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Drawer } from 'react-native-paper';
+import defaultStyles from '../styles/defaultStyles';
 
 
 //DrawerItem is a component that lets you navigate to different places
@@ -7,7 +8,7 @@ import { Drawer } from 'react-native-paper';
 //Child of DrawerSection
 const DrawerItem = () => (
    <Drawer.Item
-     style={{ backgroundColor: '#64ffda' }}
+     style={defaultStyles.itemContainer}
      icon="star"
      label="First Item"
    />
